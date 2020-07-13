@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <style>
+            body {
+  background: #dadada;
+  font-family: "Cabin", sans-serif;
+}
+body .container {
+  margin-top: 2rem;
+}
+body .box {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 3rem auto;
+  padding: 3em;
+}
+body .special {
+  text-align: center;
+}
+body .section {
+  height: auto;
+  padding: 2rem;
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  will-change: transform;
+}
+body .section:nth-child(2n-1) {
+  border-right: solid 2px #e5e5e5;
+}
+body .section:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transform: translate(0, -15px);
+          transform: translate(0, -15px);
+  border-radius: 2px;
+  z-index: 1;
+}
+body .section p {
+  margin-top: 2rem;
+  text-align: justify;
+}
+body .section img {
+  max-width: 20%;
+}
+body .section h1 {
+  margin-top: 2rem;
+}
+body .third {
+  border-top: solid 2px #e5e5e5;
+}
+body .third:hover {
+  border-top: solid 2px transparent;
+  z-index: 1;
+  border-radius: 2px;
+}
+body .fourth {
+  border-top: solid 2px #e5e5e5;
+}
+body .fourth:hover {
+  border-top: solid 2px transparent;
+  z-index: 1;
+  border-radius: 2px;
+}
+@media (max-width: 990px) {
+  body .features-row .section {
+    border: 0;
+  }
+  body .features-row .section:nth-child(2n-2) {
+    border-top: solid 2px #e5e5e5;
+  }
+  body .features-row .section:nth-child(2n-2):hover {
+    border-top: solid 2px transparent;
+  }
+  body .features-row .third {
+    border-top: solid 2px #e5e5e5;
+  }
+  body .features-row .third:hover {
+    border-top: solid 2px transparent;
+  }
+}
+
+        </style>
+    </head>
+    <body>
+        
+<div class="container">
+    <h1>App Store</h1>
+    <div class="box special features container">
+      <div class="row features-row">
+        <div class="section col-lg-6"><img src="poster7_12_12510.png" alt="" style="max-width:30%"/>
+          <h1>Corona Counter</h1>
+          <h5 style="border: 1px solid; padding-top: 10px; padding-bottom: 10px;">Download</h5>
+          <p>The Live Corona Counter, which will show you the count of corona positive cases using official government sources. Simple, User-friendly UI.</p>
+        </div>
+        <div class="section col-lg-6"><img src="gcoin.png" alt=""/>
+          <h1>G-Coin</h1>
+          <h5 style="border: 1px solid; padding-top: 10px; padding-bottom: 10px;">Download</h5> 
+          <p>G-Coin is a virtual currency. There are no physical G-Coins, only balances kept in the cloud, that – along with all G-Coin transactions.</p>
+        </div>
+      </div>
+      <!-- <div class="row features-row">
+        <div class="section col-lg-6 third"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/511975/apple.svg" alt=""/>
+          <h1>Apple</h1>
+          <p>Apple is an American multinational technology company headquartered in Cupertino, California that designs, develops, and sells consumer electronics, computer software, and online services.</p>
+        </div>
+        <div class="section col-lg-6 fourth"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/511975/itunes.svg" alt=""/>
+          <h1>Itunes</h1>
+          <p>iTunes is a media player, media library, online radio broadcaster, and mobile device management application developed by Apple Inc. It is used to play, download, and organize digital downloads of music and video.</p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+    </body>
+</html>
